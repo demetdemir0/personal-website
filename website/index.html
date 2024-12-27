@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+    <title>My Web Page</title>
+</head>
+
+<body>
+    <div class="PageAndFooter">
+        <div id="MyPage">
+            <div class="div-top">
+                <img class="header-background" src="/assets/images/header_background.jpg" alt="header_background">
+                <img class="header-rightside" src="/assets/images/header_rightside.jpg" alt="">
+                <h1 class="name">Demet Demir</h1>
+                <p class="job">CE Student at FSMVU</p>
+                <div class="languages">
+                    <img src="assets/images/Eng.png" alt="English" width="30px" height="20px">
+                    <div class="separator"></div>
+                    <img src="assets/images/Tur.png" alt="Turkish" width="30px" height="20px">
+                </div>
+                <div id="divImg">
+                    <div id="divImg2">
+                        <img src="assets/images/me.jpg" style="width:100px" height="100px" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="navigation">
+                    <div class="navigation-sticky">
+                        <div class="item">
+                            <img src="assets/images/in.png" alt="Instagram" width="20" height="20">
+                            <a id="myLink" href="https://www.instagram.com">Instagram</a>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/facebook.png" alt="facebook" width="20" height="20">
+                            <a id="myLink" href="https://www.facebook.com">Facebook</a>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/twiter.png" alt="twitter" width="20" height="20">
+                            <a id="myLink"
+                                href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoidHIifQ%3D%3D%22%7D">Twitter</a>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/youtube.png" alt="youtube" width="20" height="20">
+                            <a id="myLink" href="https://www.youtube.com">Youtube</a>
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/g.png" alt="google" width="20" height="20">
+                            <a id="myLink" href="https://www.google.com">Google+</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="welcome-container">
+                        <h1 id="welcome-text">Welcome to My Webpage</h1>
+                    </div>
+                    <div class="about-me">
+                        <h3>About Me</h3>
+                        <p>I am a computer engineer which is a broad word under which there are many job roles. As a
+                            computer
+                            engineer I would be responsible for developing, designing, testing and implementing various
+                            computer
+                            based software and hardware, which includes certain components found inside the computer
+                            equipment.
+                            Furthermore, I can care for the devices within the computer and the software which power
+                            these
+                            machines. Finally, I can design the network and assure its security by integrating various
+                            software
+                            programs and hardware. Computer engineers are in heavy demand all through the business
+                            sectors
+                            in
+                            the world.</p>
+                    </div>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <ol>
+                            <li>GAIHL 2018'</li>
+                            <li>FSMVU 2024'</li>
+                        </ol>
+                    </div>
+                    <div class="experience">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>Medya AS (Intern)</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="prog-langs">
+                            <img src="assets/images/skills1.jpg" alt="">
+                            <img src="assets/images/skills2.jpg" alt="">
+                            <img src="assets/images/skills3.jpg" alt="">
+                            <img src="assets/images/skills4.jpg" alt="">
+                            <img src="assets/images/skills5.png" alt="">
+                            <img src="assets/images/skills6.png" alt="">
+                            <img src="assets/images/skills7.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hobbies-interests">
+                        <h3>Hobbies and Interests</h3>
+                        <ul>
+                            <li>Voleyball</li>
+                            <li>Football</li>
+                            <li>Playing Kalimba</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div id="quick-id-container " style="background-color: rgb(118, 118, 176); border-radius: 5%;">
+                        <div class="quick-id">
+                            <h3 class="underline">Quick ID</h3>
+                        </div>
+                        <div class="informations">
+                            <p style="font-size: 14px; color: aliceblue;">
+                                Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+90) 545 609 3821</p>
+                            <p style="font-size: 14px; color: aliceblue;">
+                                Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:demet.demir@stu.fsm.edu.tr"
+                                    style="color:aliceblue">demet.demir@stu.fsm.edu.tr</a></p>
+                            <p style="font-size: 14px; color: aliceblue;">Website:&nbsp;&nbsp;<a
+                                    href="https://www.fsm.edu.tr/" style="color:aliceblue">fsmvu.edu.tr</a></p>
+                            <p style="font-size: 14px; color: aliceblue;">Address:&nbsp;&nbsp;
+                                Sutluce/Beyoglu/Istanbul</p>
+                        </div>
+                    </div>
+                    <div class="contact-me">
+                        <h3 class="underline">Contact Me</h3>
+                        <div id="contactForm-container">
+                            <form id="contactForm" onsubmit="return validateForm()">
+                                <label for="name">Name(*):&nbsp;</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="surname">Surname(*):</label>
+                                <input type="text" id="surname" name="surname" required>
+                                <br><br>
+                                <label for="email">Email(*):</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <label for="phone"> Phone:&nbsp;&nbsp;</label>
+                                <input type="text" id="phone" name="phone" required>
+                                <br><br>
+                                <label for="date">Date:</label>
+                                <input type="date" id="date" name="date">
+
+                                <label for="time">Time:</label>
+                                <input type="time" id="time" name="time">
+                                <br><br>
+                                <label for="subject">Subject(*):</label>
+                                <input type="text" id="subject" name="subject" required>
+
+                                <br><br>
+
+                                <label for="message">Message(*):</label>
+                                <br>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                                <br>
+                                <button type="button" onclick="submitForm()">Submit</button>
+                            </form>
+                        </div>
+                        <div id="successMessage"></div>
+                        <div id="historyMessages"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="myFooter">
+            <footer>
+                <p>Last Update 16.11.2023</p>
+                <p>Copyright @2023</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

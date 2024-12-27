@@ -1,0 +1,301 @@
+.div-top {
+    position: relative;
+    display: inline-block;
+}
+
+#divImg {
+    position: relative;
+}
+
+#divImg2 {
+    position: absolute;
+    left: 50%
+}
+
+#divImg img {
+    margin-left: -50%;
+    margin-top: -50%;
+    border-radius: 50%;
+}
+
+.header-background {
+    width: 1350px;
+    max-height: 350px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-rightside {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-60%, -50%);
+    width: 50%;
+    height: 100%;
+}
+
+.languages {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.separator {
+    border-left: 1px solid #e20707;
+    height: auto;
+    margin: 0 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.name {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    font-family: 'Courier New';
+    text-align: center;
+    z-index: 1;
+}
+
+.job {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    z-index: 1;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    padding: 10px;
+    float: left;
+    min-width: 100px;
+
+}
+
+.navigation-sticky {
+    position: fixed;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5%;
+    float: left;
+    min-width: 100px;
+}
+
+.details {
+    border: 2px dashed #000;
+    padding: 10px;
+    padding-top: 50px;
+    margin: 10px;
+    float: left;
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+p {
+    margin: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+li {
+    font-family: Arial;
+    font-size: 18px;
+    padding-bottom: 15px;
+
+}
+
+.about-me {
+    background-color: rgba(236, 176, 176);
+}
+
+.education {
+    background-color: rgba(182, 237, 174);
+}
+
+.experience {
+    background-color: rgba(224, 228, 87);
+}
+
+.skills {
+    background-color: rgba(167, 146, 202);
+}
+
+.prog-langs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prog-langs img {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+.hobbies-interests {
+    background-color: rgba(184, 131, 129);
+}
+
+
+
+.item {
+    display: flex;
+    margin-bottom: 10px;
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+.item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    align-items: start;
+}
+
+.contact {
+    border: 3px solid green;
+    padding: 10px;
+    float: left;
+    width: 23%;
+    border-radius: 10%;
+    position: relative;
+    min-width: 300px;
+
+}
+
+.quick-id {
+    border-radius: 10%;
+    border-color: rgb(0, 71, 150);
+}
+
+#quick-id-container {
+    height: 420px;
+}
+
+.contact-me {
+    background-color: rgb(173, 216, 230);
+    border-radius: 10%;
+}
+
+#contactForm {
+    font-family: Georgia;
+    font-size: 10px;
+}
+
+input,
+textarea {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+#successMessage {
+    display: none;
+    font-family: Georgia;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#historyMessages {
+    display: none;
+    font-family: Georgia;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+#myLink {
+    color: blue;
+    transition: background-color 0.3s ease;
+}
+
+#myLink:hover {
+    background-color: lightblue;
+}
+
+.welcome-container {
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#welcome-text {
+    font-size: 24px;
+    transition: opacity 1s ease-in-out;
+    align-items: center;
+    color: #e20707;
+
+}
+
+.PageAndFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.myFooter {
+    text-align: center;
+    background-color: #000;
+    color: red;
+    border-radius: 20px;
+    width: 100%;
+}
